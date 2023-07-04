@@ -1,0 +1,20 @@
+.bg-dark-blue{
+    background-color: blue;
+}
+
+.square{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
+
+.vertical-align-square{
+    line-height: 100px;
+    vertical-align: middle;
+}
+
+.container-square-felx{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
