@@ -20,18 +20,18 @@ al nostro programma così come lo faremmo "a mano" anche su un foglietto
 
 //genera numeri da 1 a 100 
 for (let i=1; i<= 100; i++){
-    console.log[i]
-}
+
 
 //se multiplo di 3 allora fizz
 if (i % 3 == 0) {
-    console.log(fizz);
+    console.log("fizz");
     //se multiplo di 5 allora buzz
 } else if (i % 5 == 0) {
-    console.log(buzz);
+    console.log("buzz");
     //se multiplo di 3 e di 5 
 } else if (i % 3 == 0 && i % 5 == 0) {
-    console.log(fizzbuzz);
+    console.log("fizzbuzz");
 } else {
     console.log(i)
+;}
 }
