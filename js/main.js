@@ -23,14 +23,14 @@ for (let i=1; i<= 100; i++){
 
 
 //se multiplo di 3 allora fizz
-if (i % 3 == 0) {
-    console.log("fizz");
+if (i % 3 == 0 && i % 5 == 0) {
+    console.log("fizzbuzz");
     //se multiplo di 5 allora buzz
 } else if (i % 5 == 0) {
     console.log("buzz");
     //se multiplo di 3 e di 5 
-} else if (i % 3 == 0 && i % 5 == 0) {
-    console.log("fizzbuzz");
+} if (i % 3 == 0) {
+    console.log("fizz");
 } else {
     console.log(i)
 ;}
